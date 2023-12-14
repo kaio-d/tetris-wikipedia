@@ -134,10 +134,9 @@ main .conteudo .historia {
 
 main .historia .extras {
   background-color: #F8F9FA;
-  margin-top: 60px;
   margin-left: 20px;
   width: 450px;
-  height: 600px;
+  height: 900px;
 }
 
 main .historia .extras img {
