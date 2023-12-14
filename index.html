@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wikipédia Clone - Tetris</title>
+    <link rel="stylesheet" href="./src/reset.css" />
+    <link rel="stylesheet" href="./src/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <img
+            src="./src/imagens/tetris-logo.png"
+            alt="Logo do jogo clássico Tetris em formato de um T"
+          />
+          <h2>Tetris</h2>
+          <div class="pesquisar">
+              <input type="text" placeholder="Pesquisar Na Wikipédia">
+              <button>Procurar</button>
+          </div>
+        </div>
+        <ul>
+          <li>
+            <a href="#">Criar uma conta</a>
+          </li>
+          <li>
+            <a href="#">Conecte-se</a>
+          </li>
+        </ul>
+      </header>
+
+      <main>
+        <aside>
+          <nav>
+            <ul>
+              <li><a href="#jogabilidade">Jogabilidade</a></li>
+              <li><a href="#pecas">Peças Do Jogo</a></li>
+              <li><a href="#pontuacao">Pontuação</a></li>
+              <li><a href="#historia">História</a></li>
+              <li><a href="#musica">Música</a></li>
+              <li><a href="#filme">Filme</a></li>
+            </ul>
+          </nav>
+        </aside>
+
+        <div class="conteudo">
+          <h1>Tetris</h1>
+          <p>
+            Tetris (Russo: Тетрис [a] ) é um videogame de quebra-cabeça criado
+            em 1985 por Alexey Pajitnov , um engenheiro de software soviético
+            .Foi publicado por várias empresas para múltiplas plataformas,
+            principalmente durante uma disputa sobre a apropriação dos direitos
+            no final dos anos 1980. Após um período significativo de publicação
+            pela Nintendo , os direitos foram revertidos para Pajitnov em 1996,
+            que co-fundou a Tetris Company com Henk Rogers para gerenciar o
+            licenciamento.
+          </p>
+          <p>
+            No Tetris , os jogadores completam linhas movendo peças de formatos
+            diferentes ( tetrominós ), que descem para o campo de jogo. As
+            linhas completadas desaparecem e concedem pontos ao jogador, e o
+            jogador pode prosseguir para preencher os espaços vagos. O jogo
+            termina quando as linhas não limpas alcançam o topo do campo de
+            jogo. Quanto mais tempo o jogador atrasar esse resultado, maior será
+            sua pontuação. Em jogos multijogador, os jogadores devem durar mais
+            que seus oponentes; em certas versões, os jogadores podem infligir
+            penalidades aos oponentes completando um número significativo de
+            linhas. Algumas versões acrescentam variações nas regras, como
+            exibições tridimensionais ou sistema de reserva de peças.
+          </p>
+          <p>
+            Construído com base em regras simples, Tetris se consolidou como um
+            dos maiores videogames já feitos . Até dezembro de 2011, havia
+            vendido 202 milhões de cópias – aproximadamente 70 milhões de
+            unidades físicas e 132 milhões de downloads pagos de jogos para
+            celular – tornando-se uma das franquias de videogame mais vendidas .
+            A versão Game Boy é um dos jogos mais vendidos de todos os tempos ,
+            com mais de 35 milhões de cópias vendidas. Tetris está disponível em
+            mais de 65 plataformas , estabelecendo um recorde mundial do
+            Guinness para o videogame mais portado. Tetris está enraizado na
+            cultura popular e sua popularidade vai além da esfera dos
+            videogames; as imagens do jogo influenciaram a arquitetura, a música
+            e o cosplay . O jogo também tem sido objecto de vários estudos de
+            investigação que analisaram a sua complexidade teórica e mostraram o
+            seu efeito no cérebro humano após uma sessão, em particular o efeito
+            Tetris.
+          </p>
+          <h2 id="jogabilidade">Jogabilidade</h2>
+          <p>
+            Tetris é composto principalmente por um campo de jogo no qual peças
+            de diferentes formas geométricas, chamadas " tetrominós ", descem do
+            topo do campo. Durante esta descida, o jogador pode mover as peças
+            lateralmente e girá-las até tocarem o fundo do campo ou pousarem em
+            uma peça que foi colocada antes dele. O jogador não pode desacelerar
+            as peças que caem nem pará-las, mas pode acelerá-las, na maioria das
+            versões. O objetivo do jogo é usar as peças para criar o máximo
+            possível de linhas horizontais completas de blocos. Quando uma linha
+            é completada, ela desaparece e os blocos colocados acima caem uma
+            classificação.Completar linhas concede pontos, e acumular um certo
+            número de pontos ou linhas limpas move o jogador para um nível
+            acima, o que aumenta o número de pontos concedidos por linha
+            completada.
+          </p>
+          <p>
+            Na maioria das versões, a velocidade das peças que caem aumenta a
+            cada nível, deixando o jogador com menos tempo para pensar na
+            colocação.O jogador pode limpar várias linhas de uma vez, o que pode
+            ganhar pontos de bônus em algumas versões. É possível completar até
+            quatro linhas simultaneamente com o uso do tetrominó em forma de I;
+            esse movimento é chamado de "Tetris" e é a base do título do jogo.
+          </p>
+          <p>
+            Se o jogador não conseguir fazer os blocos desaparecerem com rapidez
+            suficiente, o campo começará a encher; quando as peças chegam ao
+            topo do campo e impedem a chegada de peças adicionais, o jogo
+            termina.Ao final de cada jogo, o jogador recebe uma pontuação
+            baseada no número de linhas completadas. jogo nunca termina com a
+            vitória do jogador. O jogador pode completar apenas o máximo de
+            linhas possível, antes de uma perda inevitável.
+          </p>
+          <p>
+            Desde 1996, a Tetris Company definiu internamente especificações e
+            diretrizes às quais os editores devem aderir para obterem uma
+            licença do Tetris . O conteúdo destas diretrizes estabelece
+            elementos como a correspondência de botões e ações, o tamanho do
+            campo de jogo e o sistema de rotação.
+          </p>
+          <h2 id="pecas">Peças do jogo</h2>
+          <p>
+            As peças nas quais o jogo Tetris se baseia são chamadas de
+            "tetrominós". A versão original de Pajitnov para o computador
+            Electronika 60 usava colchetes verdes para representar os blocos que
+            compõem os tetrominós.Versões de Tetris no Game Boy/Game Boy Color
+            original e na maioria dos jogos portáteis dedicados usam gráficos em
+            preto e branco ou em tons de cinza , mas as versões mais populares
+            usam uma cor separada para cada forma distinta. Antes da
+            padronização da Tetris Company no início dos anos 2000, essas cores
+            variavam amplamente de implementação para implementação.
+          </p>
+          <h2 id="pontuacao">Pontuação</h2>
+          <p>
+            A fórmula de pontuação para a maioria dos produtos Tetris baseia-se
+            na ideia de que linhas mais difíceis devem receber mais pontos. Por
+            exemplo, uma única linha limpa na Zona Tetris vale 100 pontos,
+            limpar quatro linhas de uma vez (conhecido como Tetris ) vale 800,
+            enquanto cada Tetris consecutivo subsequente vale 1.200.Em conjunto,
+            os jogadores podem receber combos que existem em certos jogos que
+            recompensam a limpeza de múltiplas linhas em rápida sucessão. As
+            condições exatas para acionar combos e a importância atribuída a
+            eles variam de jogo para jogo.
+          </p>
+          <p>
+            Quase todos os jogos de Tetris permitem que o jogador pressione um
+            botão para aumentar a velocidade de descida da peça atual ou fazer
+            com que a peça caia e trave no lugar imediatamente, conhecido como
+            "queda suave" e "queda forte", respectivamente. Ao realizar uma
+            queda suave, o jogador também pode interromper o aumento da
+            velocidade da peça liberando o botão antes que a peça se encaixe no
+            lugar. Alguns jogos permitem apenas queda suave ou queda forte;
+            outros possuem botões separados para ambos. Muitos jogos concedem um
+            número de pontos com base na altura em que a peça caiu antes de
+            travar, portanto, usar a queda brusca geralmente concede mais
+            pontos.
+          </p>
+          <h2 id="historia">História</h2>
+          <p>
+            Em 1979, Alexey Pajitnov ingressou no Centro de Computação da
+            Academia Soviética de Ciências como pesquisador de reconhecimento de
+            fala . Embora tivesse a tarefa de testar as capacidades do novo
+            hardware, sua ambição era usar computadores para deixar as pessoas
+            felizes.Pajitnov desenvolveu vários jogos de quebra-cabeça no
+            computador do instituto, um Electronika 60 , um recurso escasso na
+            época devido em parte ao CoCom .Para Pajitnov, "os jogos permitem
+            que as pessoas se conheçam melhor e atuem como reveladores de coisas
+            que você normalmente não notaria, como sua maneira de pensar".
+          </p>
+          <p>
+            Em 1984, enquanto tentava recriar um jogo de quebra-cabeça favorito
+            de sua infância com pentominós , Pajitnov imaginou um jogo que
+            consistia em uma descida de peças aleatórias que o jogador viraria
+            para preencher fileiras.Pajitnov sentiu que o jogo seria
+            desnecessariamente complicado com doze variações de formas
+            diferentes, então ele reduziu o conceito para tetrominós , dos quais
+            existem sete variantes. Pajitnov intitulou o jogo Tetris , uma
+            palavra criada a partir de uma combinação de "tetra" (que significa
+            "quatro") e seu esporte favorito, " tênis ".
+          </p>
+          <p>
+            Como o Electronika 60 não tinha interface gráfica , Pajitnov modelou
+            o campo e as peças usando espaços e colchetes (45 linhas de 80
+            caracteres ASCII ).Percebendo que as linhas completas preenchiam a
+            tela rapidamente, Pajitnov decidiu excluí-las, criando uma parte
+            fundamental da jogabilidade do Tetris .Esta versão inicial do Tetris
+            não tinha sistema de pontuação nem níveis, mas sua qualidade
+            viciante o distinguia de outros jogos de quebra-cabeça que Pajitnov
+            havia criado.Pajitnov escreveu o jogo usando Pascal para o sistema
+            operacional RT-11 no Electronika 60.
+          </p>
+          <p>
+            Pajitnov completou a primeira versão jogável de Tetris c. 1985.
+            Pajitnov apresentou Tetris a seus colegas, que rapidamente se
+            tornaram viciados nele.Ele permeou os escritórios da Academia de
+            Ciências e, em poucas semanas, chegou a todos os institutos de
+            Moscou com um computador.Um amigo de Pajitnov, Vladimir Pokhilko ,
+            que solicitou o jogo para o Instituto Médico de Moscou, viu pessoas
+            pararem de trabalhar para jogar Tetris . Pokhilko acabou banindo o
+            jogo do Instituto Médico para restaurar a produtividade.
+          </p>
+          <h2 id="musica">Música</h2>
+          <p>
+            As primeiras versões do Tetris não tinham música.A música folclórica
+            russa da década de 1860 " Korobeiniki " apareceu pela primeira vez
+            nas versões de Tetris para Macintosh e Apple IIGS de 1988 do
+            Spectrum Holobyte como uma das músicas que toca brevemente no início
+            de cada nível.Também apareceu como música da tela título no
+            lançamento japonês para Famicom da Bullet-Proof Software. A versão
+            NES da Nintendo não inclui Korobeiniki ; em vez disso, inclui um
+            arranjo de "Dance of the Sugar Plum Fairy" do segundo ato de The
+            Nutcracker , composto por Tchaikovsky e arranjado por Hirokazu
+            Tanaka , junto com duas composições originais de Tanaka, no entanto,
+            a versão Game Boy da Nintendo inclui "Korobeiniki" também como a
+            Suíte Francesa No. 3 em Si Menor de Johann Sebastian Bach (BWV 814),
+            e uma faixa original de Tanaka. A versão incluída na compilação
+            Tetris & Dr. Mario do Super NES usa arranjos da música da versão
+            Game Boy.
+          </p>
+          <h2 id="filme">Filme</h2>
+          <p>
+            Em 2014 foi anunciado que a Threshold Entertainment havia se unido à
+            Tetris Company para desenvolver Tetris - The Movie , uma adaptação
+            cinematográfica do jogo. O CEO da Threshold descreveu o filme como
+            uma aventura épica de ficção científica que seria a primeira parte
+            de uma trilogia.Em 2016, fontes relataram um comunicado de imprensa
+            afirmando que o filme seria rodado na China em 2017 com um orçamento
+            de US$ 80 milhões. No entanto, nenhuma fonte de 2017 ou posterior
+            confirma que o filme realmente entrou em produção.
+          </p>
+        </div>
+      </main>
+
+      
+      <footer>
+        <p>
+          Esta página foi editada pela última vez em 14 de dezembro de 2023, às
+          23h00 (UTC) .
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+body {
+  background-color: #F8F9FA;
+}
+
+.container {
+  background-color: #fff;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+header {
+  display: flex;
+  justify-content:  space-between;
+  align-items: center;
+  padding-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 80px;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+header .pesquisar {
+  display: flex;
+}
+
+header .logo .pesquisar input {
+  width: 300px;
+  height: 30px;
+  margin-left: 15px;
+}
+
+header .logo .pesquisar input::placeholder {
+  padding-left: 10px;
+}
+
+header .logo button {
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 1px solid #000;
+}
+
+header .logo button:hover {
+  background-color: #fff;
+}
+
+
+header img {
+  width: 80px;
+}
+
+header ul{
+  display: flex;
+  gap: 15px;
+}
+
+main {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+main aside {
+  position: fixed;
+}
+
+main aside ul li{
+  margin-top: 10px;
+}
+
+main .conteudo {
+  flex-direction: column;
+  margin-left: 200px;
+}
+
+main .conteudo h2,h1{
+  border-bottom: 1px solid #A2A9B1;
+  margin-bottom: 15px;
+}
+
+main .conteudo p {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #6F6F70;
+}
