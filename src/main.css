@@ -29,6 +29,7 @@ header .pesquisar {
   display: flex;
 }
 
+
 header .logo .pesquisar input {
   width: 300px;
   height: 30px;
@@ -52,6 +53,10 @@ header .logo button:hover {
   background-color: #fff;
 }
 
+header ul li a img:hover {
+  background-color: #F8F9FA;
+}
+
 
 header img {
   width: 80px;
@@ -59,7 +64,13 @@ header img {
 
 header ul{
   display: flex;
-  gap: 15px;
+  gap: 20px;
+}
+
+header ul li a img {
+  width: 23px;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
