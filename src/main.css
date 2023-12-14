@@ -128,3 +128,41 @@ main .conteudo .descricao .imagem ul li{
   
 }
 
+main .conteudo .historia {
+  display: flex;
+}
+
+main .historia .extras {
+  background-color: #F8F9FA;
+  margin-top: 60px;
+  margin-left: 20px;
+  width: 450px;
+  height: 600px;
+}
+
+main .historia .extras img {
+  margin-top: 20px;
+  width: 300px;
+}
+
+main .historia .extras p {
+  color: #000;
+  font-size: 1rem;
+  margin: 10px 10px;
+}
+
+footer {
+  border-top: 1px solid #A2A9B1;
+  margin: 80px 100px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+footer p {
+  margin-bottom: 20px;
+}
+
+footer ul li{
+  display: inline;
+  padding-left: 15px;
+}
