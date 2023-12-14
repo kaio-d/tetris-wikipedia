@@ -76,6 +76,13 @@ main aside ul li{
   margin-top: 10px;
 }
 
+main aside ul li  .principal {
+  border-top: 1px solid #A2A9B1;
+  padding-top: 10px;
+  color: #000;
+  font-weight: bold;
+}
+
 main .conteudo {
   flex-direction: column;
   margin-left: 200px;
@@ -91,3 +98,33 @@ main .conteudo p {
   font-size: 1.2rem;
   color: #6F6F70;
 }
+
+main .conteudo .descricao {
+  display: flex;
+}
+
+main .conteudo .descricao .imagem {
+  width: 300px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: 40px;
+  background-color: #F8F9FA;
+  align-items: center;
+  justify-content: center;
+}
+
+main .conteudo .descricao .imagem h3 {
+  margin: 10px 120px;
+}
+
+main .conteudo .descricao .imagem p {
+  color: #000;
+  font-size: 1rem;
+  margin: 5px 50px 10px
+}
+
+main .conteudo .descricao .imagem ul li{
+  margin: 10px 20px;
+  
+}
+
